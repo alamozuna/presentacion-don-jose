@@ -78,15 +78,15 @@ export const defaultProposalConfig: ProposalConfig = {
     phone: "+1 (849) 352-3722",
     whatsappFormatted: "18493523722",
     email: "alam_ozuna@outlook.com",
-    linkedin: "https://linkedin.com/in/alam-antonio-ozuna-silva",
+    linkedin: "https://www.linkedin.com/in/alam-antonio-ozuna-silva-b4648029a",
     portfolio: "https://alamozuna.github.io",
     bio: "Graduado Magna Cum Laude con un MBA en Ciencia de Datos e IA. Experiencia directa probada en Scotiabank optimizando bases de datos corporativas, automatizando procesos y construyendo dashboards estratégicos sin margen de error."
   },
   schedule: {
     day: "Todos los Sábados",
-    frequency: "Semanal (4 Sábados al mes)",
-    hoursPerDay: 8,
-    monthlyHours: 32
+    frequency: "Semanal (9:00 AM a 2:00 PM)",
+    hoursPerDay: 5,
+    monthlyHours: 20
   },
   pillars: [
     {
@@ -266,7 +266,7 @@ export const defaultProposalConfig: ProposalConfig = {
   faqs: [
     {
       question: "¿Por qué trabajar los sábados y no toda la semana?",
-      answer: "El modelo de sábados le ofrece a Don José el máximo impacto sin los costos fijos ni cargas prestacionales de una nómina completa de tiempo completo. En 8 horas de trabajo enfocado cada sábado, un especialista senior avanza más que días enteros de rutina convulsionada."
+      answer: "El modelo de sábados le ofrece a Don José el máximo impacto sin los costos fijos ni cargas prestacionales de una nómina completa de tiempo completo. En 5 horas de trabajo enfocado cada sábado (de 9:00 AM a 2:00 PM), un especialista senior avanza más que días enteros de rutina convulsionada."
     },
     {
       question: "¿Qué pasa si surge un problema grave durante la semana?",

@@ -83,7 +83,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             {/* Schedule Summary Banner */}
             <div className="inline-flex items-center gap-3 px-4 py-2.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-semibold">
               <Calendar className="w-4 h-4" />
-              <span>Modalidad: 8 Horas Intensivas cada Sábado (32h/mes de Ejecución Senior)</span>
+              <span>Modalidad: Sábados de 9:00 AM a 2:00 PM (5h/día, 20h/mes de Ejecución Senior)</span>
             </div>
           </div>
 

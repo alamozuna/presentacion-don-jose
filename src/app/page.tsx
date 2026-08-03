@@ -6,7 +6,6 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { SaturdayPillars } from "@/components/SaturdayPillars";
 import { CredentialsShowcase } from "@/components/CredentialsShowcase";
-import { RoiCalculator } from "@/components/RoiCalculator";
 import { RoadmapSection } from "@/components/RoadmapSection";
 import { FaqSection } from "@/components/FaqSection";
 import { Footer } from "@/components/Footer";
@@ -28,8 +27,9 @@ export default function Home() {
         onOpenAcceptModal={() => setIsAcceptModalOpen(true)}
       />
 
-      {/* Hero Section */}
+      {/* Main Content */}
       <main>
+        {/* Hero Section */}
         <HeroSection
           config={defaultProposalConfig}
           companyName={companyName}
@@ -44,13 +44,6 @@ export default function Home() {
 
         {/* Credentials & Authority Showcase */}
         <CredentialsShowcase config={defaultProposalConfig} />
-
-        {/* Interactive ROI & Time Simulator */}
-        <RoiCalculator
-          config={defaultProposalConfig}
-          companyName={companyName}
-          onOpenAcceptModal={() => setIsAcceptModalOpen(true)}
-        />
 
         {/* 90-Day Saturday Implementation Roadmap */}
         <RoadmapSection

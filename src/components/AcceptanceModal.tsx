@@ -85,7 +85,7 @@ export const AcceptanceModal: React.FC<AcceptanceModalProps> = ({
               </div>
               <div className="flex justify-between items-center text-slate-300">
                 <span>Modalidad:</span>
-                <strong className="text-emerald-400">Todos los Sábados (8h/día)</strong>
+                <strong className="text-emerald-400">Sábados de 9:00 AM a 2:00 PM (5h/día)</strong>
               </div>
             </div>
 
