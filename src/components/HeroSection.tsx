@@ -46,6 +46,22 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 max-w-xl mx-auto lg:mx-0 text-left">
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
                 <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Optimización y automatización de procesos</span>
+              </div>
+              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Desahogo total de trabajo atrasado</span>
+              </div>
+              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Sistemas logísticos y dashboards gerenciales</span>
+              </div>
+              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Página web corporativa a la medida</span>
+              </div>
+              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
                 <span className="text-xs sm:text-sm text-slate-200 font-medium">Separación de facturas de Claro por banca</span>
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
@@ -58,15 +74,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
                 <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span className="text-xs sm:text-sm text-slate-200 font-medium">Formulario de empleo & digitalización documental</span>
-              </div>
-              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
-                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
                 <span className="text-xs sm:text-sm text-slate-200 font-medium">Ejecución y cobro por etapas/hitos progresivos</span>
-              </div>
-              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
-                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span className="text-xs sm:text-sm text-slate-200 font-medium">Página web corporativa & tableros Power BI</span>
               </div>
             </div>
 

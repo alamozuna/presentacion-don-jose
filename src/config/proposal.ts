@@ -104,8 +104,65 @@ export const defaultProposalConfig: ProposalConfig = {
   },
   pillars: [
     {
-      id: "claro",
+      id: "optimizacion",
       number: "01",
+      title: "Optimización y Automatización de Procesos",
+      shortDesc: "Eliminación de cuellos de botella, ordenamiento de flujos de trabajo y automatización de tareas administrativas repetitivas.",
+      icon: "Zap",
+      color: "from-amber-500 to-orange-600",
+      impactBadge: "Ahorro del 40% del tiempo operativo",
+      details: [
+        "Identificación de tareas repetitivas y eliminación de pasos innecesarios.",
+        "Automatización de reportes diarios/semanales en Excel Avanzado y Power BI.",
+        "Estandarización de procedimientos para evitar errores humanos."
+      ],
+      outcomes: [
+        "Flujos de trabajo ágiles y documentados.",
+        "Mayor velocidad de respuesta en la operación semanal.",
+        "Reducción directa de errores operativos a cero."
+      ]
+    },
+    {
+      id: "atrasado",
+      number: "02",
+      title: "Desahogo y Puesta al Día de Trabajo Atrasado",
+      shortDesc: "Depuración intensiva de archivos, facturas, cuadres pendientes e inventarios rezagados para partir de cero con orden total.",
+      icon: "FolderSync",
+      color: "from-blue-500 to-cyan-600",
+      impactBadge: "Cero pendiente acumulado",
+      details: [
+        "Procesamiento rápido y organizado del trabajo acumulado.",
+        "Organización digital y física de expedientes, cuentas o documentos.",
+        "Saneamiento de bases de datos de clientes, proveedores e inventario."
+      ],
+      outcomes: [
+        "Operación 100% al día sin acumulaciones estresantes.",
+        "Acceso instantáneo a cualquier información histórica.",
+        "Paz mental y claridad gerencial para Don José."
+      ]
+    },
+    {
+      id: "sistemas",
+      number: "03",
+      title: "Construcción de Sistemas y Estructuras Logísticas",
+      shortDesc: "Diseño de plantillas inteligentes, bases de datos automatizadas y tableros de control gerencial (KPIs) a la medida.",
+      icon: "Building2",
+      color: "from-emerald-500 to-teal-600",
+      impactBadge: "Estructura de nivel corporativo",
+      details: [
+        "Creación de sistema de control de inventario / servicios / despachos.",
+        "Diseño de tableros de control (Dashboards) para ver ventas, costos y flujo de caja.",
+        "Estructuración del canal de comunicación y seguimiento de entregas."
+      ],
+      outcomes: [
+        "Control absoluto del inventario y la logística.",
+        "Dashboards claros que Don José puede consultar en segundos.",
+        "Base sólida lista para escalar la empresa."
+      ]
+    },
+    {
+      id: "claro",
+      number: "04",
       title: "Orden e Independización de Servicios Claro por Banca",
       shortDesc: "Auditoría, desglose y separación administrativa de las facturas unificadas de Claro para que cada banca/localidad cuente con su factura independiente.",
       icon: "Wifi",
@@ -124,7 +181,7 @@ export const defaultProposalConfig: ProposalConfig = {
     },
     {
       id: "personal",
-      number: "02",
+      number: "05",
       title: "Sistema de Personal, Clasificación & Expedientes Digitales",
       shortDesc: "Estructuración de la base de datos de Recursos Humanos con registro de salidas, actualización de solicitudes de empleo y digitalización de expedientes.",
       icon: "Users",
@@ -143,11 +200,11 @@ export const defaultProposalConfig: ProposalConfig = {
     },
     {
       id: "respaldos",
-      number: "03",
+      number: "06",
       title: "Infraestructura de Datos, Dominio Interno & Respaldos",
       shortDesc: "Digitalización de documentos estratégicos y creación de un dominio/red interna respaldada en almacenamiento externo sin depender de correos personales o PCs frágiles.",
       icon: "Server",
-      color: "from-emerald-500 to-teal-600",
+      color: "from-teal-500 to-cyan-600",
       impactBadge: "Seguridad de datos nivel corporativo",
       details: [
         "Digitalización de documentos clave de la empresa para eliminar la dependencia exclusiva del papel físico.",
@@ -161,41 +218,41 @@ export const defaultProposalConfig: ProposalConfig = {
       ]
     },
     {
-      id: "optimizacion",
-      number: "04",
-      title: "Desahogo Operativo, Automatización & Tableros Gerenciales",
-      shortDesc: "Eliminación del trabajo atrasado acumulado, automatización de plantillas de control e implementación de Dashboards gerenciales.",
-      icon: "Zap",
-      color: "from-amber-500 to-orange-600",
-      impactBadge: "Ahorro del 40% del tiempo operativo",
-      details: [
-        "Depuración acelerada del trabajo administrativo acumulado e inventarios rezagados.",
-        "Automatización de reportes semanales y conciliaciones en Excel Avanzado y Power BI.",
-        "Tableros de control de ventas, gastos y balance diario a un solo clic."
-      ],
-      outcomes: [
-        "Operación 100% al día desde la primera etapa.",
-        "Visualización en tiempo real del desempeño de cada punto de venta.",
-        "Paz mental y control gerencial absoluto."
-      ]
-    },
-    {
       id: "web",
-      number: "05",
+      number: "07",
       title: "Desarrollo de la Página Web Corporativa",
       shortDesc: "Diseño y desarrollo del portal web oficial del Consorcio de Bancas Bachatta Sport para presencia institucional sólida.",
       icon: "Globe",
       color: "from-purple-500 to-pink-600",
       impactBadge: "Presencia digital 24/7",
       details: [
-        "Construcción de página web moderna, institucional e interactiva adaptada a móviles y computadoras.",
-        "Secciones institucionales, catálogo/servicios y canales de contacto directo.",
-        "Configuración de dominio web propio."
+        "Construcción de página web moderna, rápida y adaptada a celulares y computadoras.",
+        "Integración de catálogo de servicios/productos y botón directo a WhatsApp.",
+        "Posicionamiento en Google (SEO) para ser encontrados por clientes locales."
       ],
       outcomes: [
-        "Prestigio e imagen corporativa de alto impacto.",
-        "Presencia digital oficial comprobable ante socios y clientes.",
-        "Propiedad intelectual 100% registrada a nombre de la empresa."
+        "Imagen institucional de primer nivel frente a competidores.",
+        "Canal automático de generación de clientes potenciales.",
+        "Dominio propio y correos corporativos."
+      ]
+    },
+    {
+      id: "problemas",
+      number: "08",
+      title: "Resolución de Problemas e Imprevistos",
+      shortDesc: "Soporte multifuncional continuo para solucionar cualquier contingencia técnica, administrativa o estratégica que surja en la semana.",
+      icon: "ShieldAlert",
+      color: "from-rose-500 to-red-600",
+      impactBadge: "Tranquilidad y respaldo continuo",
+      details: [
+        "Atención personalizada a imprevistos tecnológicos o de sistemas.",
+        "Apoyo en negociaciones clave o proveedores bajo el Método Harvard.",
+        "Asistencia ejecutiva directa para decisiones complejas del negocio."
+      ],
+      outcomes: [
+        "Respuesta inmediata y solución efectiva de problemas complejos.",
+        "Socio de confianza para resolver retos estratégicos.",
+        "Sin sorpresas que detengan el crecimiento del negocio."
       ]
     }
   ],
@@ -301,10 +358,10 @@ export const defaultProposalConfig: ProposalConfig = {
       phase: "Orden Operativo, Claro & Puesta al Día",
       focus: "Separación de facturas Claro por banca, depuración de pendientes atrasados y digitalización inicial.",
       deliverables: [
-        "Sábado 1: Diagnóstico de servicios Claro y relevamiento de cuellos de botella.",
+        "Sábado 1: Diagnóstico de la operación, relevamiento de servicios Claro y cuellos de botella.",
         "Sábado 2: Conciliación y ordenamiento administrativo para facturación de Claro por banca.",
         "Sábado 3: Depuración e inventario intensivo del trabajo administrativo atrasado.",
-        "Sábado 4: Entrega de primer cuadro de control y facturación de Claro organizada."
+        "Sábado 4: Entrega del primer sistema de control en Excel/Power BI y facturación Claro organizada."
       ]
     },
     {
@@ -332,6 +389,22 @@ export const defaultProposalConfig: ProposalConfig = {
   ],
   faqs: [
     {
+      question: "¿Por qué trabajar los sábados y no toda la semana?",
+      answer: "El modelo de sábados le ofrece a Don José el máximo impacto sin los costos fijos ni cargas prestacionales de una nómina completa de tiempo completo. En 5 horas de trabajo enfocado cada sábado (de 9:00 AM a 2:00 PM), un especialista senior avanza más que días enteros de rutina convulsionada."
+    },
+    {
+      question: "¿Qué pasa si surge un problema grave durante la semana?",
+      answer: "Aunque la presencia física/dedicada es los sábados, Don José cuenta con comunicación abierta para consultas urgentes o emergencias que requieran guía rápida durante la semana."
+    },
+    {
+      question: "¿La página web de la empresa queda a nombre de Don José?",
+      answer: "Sí, el 100% de la propiedad intelectual, dominio, hosting y código web pertenecerá al Consorcio de Bancas Bachatta Sport de Don José con documentación y acceso completo."
+    },
+    {
+      question: "¿Cómo se mide el progreso de los trabajos?",
+      answer: "Al final de cada sábado se entregará un informe de avances con los logros alcanzados en el día y las metas para el siguiente sábado."
+    },
+    {
       question: "¿Cómo se logrará separar las facturas de Claro para que cada banca tenga su propia factura?",
       answer: "Alam realizará la gestión técnica y administrativa directa con Claro para desglosar la cuenta agrupada actual en contratos/facturas individuales asignadas a la dirección y código de cada banca. Esto permitirá conocer exactamente el costo de internet de cada localidad sin enredos."
     },
@@ -346,15 +419,6 @@ export const defaultProposalConfig: ProposalConfig = {
     {
       question: "¿Por qué se trabaja en una estructura de pagos por Fases o Hitos?",
       answer: "Para mayor tranquilidad de Don José. En lugar de asumir un compromiso masivo a ciegas, el proyecto se divide en 3 Fases con entregables claros. Don José abona por cada etapa completada y comprueba de primera mano la calidad y el impacto antes de pasar a la siguiente fase."
-    },
-    {
-      question: "¿Por qué trabajar los sábados y no toda la semana?",
-      answer: "El modelo de sábados le ofrece a Don José el máximo impacto sin los costos fijos ni cargas prestacionales de una nómina completa. En 5 horas de trabajo enfocado cada sábado (de 9:00 AM a 2:00 PM), un especialista senior en datos y sistemas avanza más que semanas de rutina convulsionada."
-    },
-    {
-      question: "¿La página web de la empresa queda a nombre del Consorcio de Bancas Bachatta Sport?",
-      answer: "Sí, el 100% de la propiedad intelectual, dominio, hosting y código web pertenecerá al Consorcio de Bancas Bachatta Sport con documentación y acceso completo."
     }
   ]
 };
-

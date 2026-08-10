@@ -38,15 +38,15 @@ export const SaturdayPillars: React.FC<SaturdayPillarsProps> = ({
             <span>Alcance del Servicio</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-100">
-            Los 5 Pilares de Trabajo para <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-orange-400">{companyName}</span>
+            Los 8 Pilares Estratégicos para <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-orange-400">{companyName}</span>
           </h2>
           <p className="text-slate-400 text-base sm:text-lg">
-            Cada sábado estará enfocado en entregar resultados concretos en estas cinco áreas estratégicas para elevar la eficiencia operativa de Don José.
+            Cada sábado estará enfocado en entregar resultados concretos en estas áreas estratégicas para elevar la eficiencia operativa de Don José.
           </p>
         </div>
 
         {/* Pillars Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-12">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-4 mb-12">
           {config.pillars.map((pillar) => {
             const isActive = pillar.id === activePillarId;
             return (
