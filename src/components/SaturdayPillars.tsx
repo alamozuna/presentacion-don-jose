@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { ProposalConfig } from "@/config/proposal";
-import { Zap, FolderSync, Building2, Globe, ShieldAlert, CheckCircle2, ChevronRight, Layers, Sparkles } from "lucide-react";
+import { Zap, FolderSync, Building2, Globe, ShieldAlert, Wifi, Users, Server, CheckCircle2, ChevronRight, Layers, Sparkles } from "lucide-react";
 
 interface SaturdayPillarsProps {
   config: ProposalConfig;
@@ -10,6 +10,9 @@ interface SaturdayPillarsProps {
 }
 
 const iconMap: Record<string, React.ReactNode> = {
+  Wifi: <Wifi className="w-6 h-6" />,
+  Users: <Users className="w-6 h-6" />,
+  Server: <Server className="w-6 h-6" />,
   Zap: <Zap className="w-6 h-6" />,
   FolderSync: <FolderSync className="w-6 h-6" />,
   Building2: <Building2 className="w-6 h-6" />,

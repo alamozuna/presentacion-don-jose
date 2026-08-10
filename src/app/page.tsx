@@ -5,6 +5,7 @@ import { defaultProposalConfig } from "@/config/proposal";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { SaturdayPillars } from "@/components/SaturdayPillars";
+import { PhasedPricingSection } from "@/components/PhasedPricingSection";
 import { CredentialsShowcase } from "@/components/CredentialsShowcase";
 import { RoadmapSection } from "@/components/RoadmapSection";
 import { FaqSection } from "@/components/FaqSection";
@@ -40,6 +41,13 @@ export default function Home() {
         <SaturdayPillars
           config={defaultProposalConfig}
           companyName={companyName}
+        />
+
+        {/* Phased Execution & Pricing Model */}
+        <PhasedPricingSection
+          config={defaultProposalConfig}
+          companyName={companyName}
+          onOpenAcceptModal={() => setIsAcceptModalOpen(true)}
         />
 
         {/* Credentials & Authority Showcase */}

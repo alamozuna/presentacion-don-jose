@@ -18,6 +18,7 @@ export const AcceptanceModal: React.FC<AcceptanceModalProps> = ({
   config,
   companyName,
 }) => {
+  const [selectedPhase, setSelectedPhase] = useState<string>("Fase 1 (Diagnóstico & Claro)");
   const [notes, setNotes] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -36,7 +37,7 @@ export const AcceptanceModal: React.FC<AcceptanceModalProps> = ({
     triggerConfetti();
     setIsSubmitted(true);
 
-    const textMessage = `¡Hola Alam! Confirmo la propuesta ejecutiva de trabajo sabático para la empresa "${companyName}". ${
+    const textMessage = `¡Hola Alam! Confirmo el inicio del proyecto de trabajo sabático para "${companyName}". Opción elegida: ${selectedPhase}. ${
       notes ? `Nota adicional de Don José: ${notes}` : ""
     }`;
 
@@ -87,6 +88,42 @@ export const AcceptanceModal: React.FC<AcceptanceModalProps> = ({
                 <span>Modalidad:</span>
                 <strong className="text-emerald-400">Sábados de 9:00 AM a 2:00 PM (5h/día)</strong>
               </div>
+              <div className="flex justify-between items-center text-slate-300 pt-2 border-t border-slate-800">
+                <span>Cobro por Hito:</span>
+                <strong className="text-amber-400">Por Fases Progresivas Independientes</strong>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <label className="text-xs font-semibold text-slate-300 block">
+                Selecciona la modalidad de inicio:
+              </label>
+              <div className="space-y-2">
+                <label className="flex items-center gap-3 p-3 rounded-xl bg-slate-950 border border-slate-800 cursor-pointer hover:border-amber-500/50">
+                  <input
+                    type="radio"
+                    name="phaseOption"
+                    checked={selectedPhase === "Fase 1 (Diagnóstico & Claro)"}
+                    onChange={() => setSelectedPhase("Fase 1 (Diagnóstico & Claro)")}
+                    className="accent-amber-500"
+                  />
+                  <span className="text-xs text-slate-200">
+                    <strong>Fase 1:</strong> Servicios Claro, Puesta al Día & Diagnóstico Base
+                  </span>
+                </label>
+                <label className="flex items-center gap-3 p-3 rounded-xl bg-slate-950 border border-slate-800 cursor-pointer hover:border-amber-500/50">
+                  <input
+                    type="radio"
+                    name="phaseOption"
+                    checked={selectedPhase === "Plan Completo por Fases"}
+                    onChange={() => setSelectedPhase("Plan Completo por Fases")}
+                    className="accent-amber-500"
+                  />
+                  <span className="text-xs text-slate-200">
+                    <strong>Plan Integral:</strong> Ejecución Continua por Fases de 90 Días
+                  </span>
+                </label>
+              </div>
             </div>
 
             <div className="space-y-2">
@@ -96,8 +133,8 @@ export const AcceptanceModal: React.FC<AcceptanceModalProps> = ({
               <textarea
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
-                placeholder="Ejemplo: Priorizar la puesta al día de facturas e inventario..."
-                className="w-full h-24 p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500"
+                placeholder="Ejemplo: Priorizar la separación de facturas de Claro e inventario de personal..."
+                className="w-full h-20 p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500"
               />
             </div>
 

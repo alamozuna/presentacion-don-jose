@@ -39,26 +39,34 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </h1>
 
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-              Plan estratégico de trabajo dedicado todos los sábados para <strong className="text-amber-300">{companyName}</strong>. Diseñado para optimizar procesos, desahogar el trabajo acumulado, construir estructuras logísticas, desarrollar su página web corporativa y solucionar cualquier problema imprevisto.
+              Plan estratégico de trabajo dedicado todos los sábados para <strong className="text-amber-300">{companyName}</strong>. Diseñado para ordenar la facturación de Claro por localidad, estructurar el sistema de personal y expedientes digitales, crear un dominio/servidor interno con respaldos externos, desahogar el trabajo acumulado y desarrollar su sitio web corporativo por <strong className="text-amber-300">fases e hitos independientes</strong>.
             </p>
 
             {/* Value Highlights Chips */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 max-w-xl mx-auto lg:mx-0 text-left">
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
                 <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span className="text-xs sm:text-sm text-slate-200 font-medium">Optimización y automatización de procesos</span>
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Separación de facturas de Claro por banca</span>
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
                 <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span className="text-xs sm:text-sm text-slate-200 font-medium">Desahogo total de trabajo atrasado</span>
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">BD de personal con motivos de salida & expedientes</span>
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
                 <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span className="text-xs sm:text-sm text-slate-200 font-medium">Sistemas logísticos y dashboards gerenciales</span>
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Dominio interno & respaldos en disco externo</span>
               </div>
               <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
                 <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
-                <span className="text-xs sm:text-sm text-slate-200 font-medium">Página web corporativa a la medida</span>
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Formulario de empleo & digitalización documental</span>
+              </div>
+              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Ejecución y cobro por etapas/hitos progresivos</span>
+              </div>
+              <div className="flex items-center gap-2.5 p-3 rounded-xl bg-slate-900/70 border border-slate-800">
+                <CheckCircle2 className="w-5 h-5 text-amber-400 flex-shrink-0" />
+                <span className="text-xs sm:text-sm text-slate-200 font-medium">Página web corporativa & tableros Power BI</span>
               </div>
             </div>
 
@@ -73,10 +81,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </button>
 
               <a
-                href="#pilares"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl text-sm font-semibold bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-700 hover:border-slate-600 transition-all"
+                href="#fases"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-2xl text-sm font-semibold bg-slate-900 hover:bg-slate-800 text-amber-300 border border-amber-500/30 hover:border-amber-500/50 transition-all"
               >
-                <span>Ver los 5 Pilares del Servicio</span>
+                <span>Ver Plan por Fases & Pagos</span>
               </a>
             </div>
 
